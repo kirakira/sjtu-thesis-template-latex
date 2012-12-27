@@ -306,13 +306,13 @@ GBT7714-2005NLang.bst中规定：.bib中的条目，如果条目的``language''�
 \href{http://bbs.ctex.org/viewthread.php?tid=33571&highlight=\%B2\%CE\%BF\%BC\%CE\%C4\%CF\%D7\%2BGB}{文后参考文献著录规则 GB/T 7714-2005}。
 关于GB/T 7714-2005标准本身，请看\href{http://bbs.ctex.org/viewthread.php?tid=33571&highlight=GB\%2B\%B2\%CE\%BF\%BC\%CE\%C4\%CF\%D7}{这里}。
 
-再多说两句，.bib是“参考文献的内容”，而控制参考文献表现(格式)的是.bst文件，本模板附带的是GBT7714-2005NLang.bst。
+再多说两句，.bib是``参考文献的内容''，而控制参考文献表现(格式)的是.bst文件，本模板附带的是GBT7714-2005NLang.bst。
 
 \subsection{在正文中引用参考文献}
 
 参考文献可以分章节管理，只需要在主文件中的参考文献中都包含进去就可以，如\verb+\bibliography{chap1,chap2,...}+。
 
-正文中引用参考文献时，用\verb+\upcite{key1,key2,key3...}+可以产生“上标引用的参考文献”，
+正文中引用参考文献时，用\verb+\upcite{key1,key2,key3...}+可以产生``上标引用的参考文献''，
 如\upcite{Meta_CN,chen2007act,DPMG}。
 使用\verb+\cite{key1,key2,key3...}+则可以产生水平引用的参考文献，例如\cite{JohnD,zhubajie,IEEE-1363}。
 请看下面的例子，将会穿插使用水平的和上标的参考文献：关于书的\cite{Meta_CN,JohnD,IEEE-1363}，关于期刊的\upcite{chen2007act,chen2007ewi}，
@@ -324,7 +324,7 @@ GBT7714-2005NLang.bst中规定：.bib中的条目，如果条目的``language''�
 \item 参考文献只有在正文中被引用了，才会在最后的参考文献列表中出现；
 \item 参考文献``数据库文件''.bib是纯文本文件，请使用UTF-8编码，不要使用GBK编码；
 \item 参考文献条目中通过language域是否为空判断是否是中文文献；
-\item 参考文献条目同样有“内容”和“表现形式”之分，这种可控性是BibTeX带来的。
+\item 参考文献条目同样有``内容''和``表现形式''之分，这种可控性是BibTeX带来的。
 \end{itemize}
 
 
